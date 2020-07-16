@@ -33,26 +33,26 @@ class Clients extends Component {
                 <th>Balance</th>
                 <th />
               </tr>
-              <tbody>
-                {clients.map((client) => (
-                  <tr key={client.id}>
-                    <td>
-                      {client.firstName} {client.lastName}
-                    </td>
-                    <td>{client.email}</td>
-                    <td>${parseFloat(client.balance).toFixed(2)}</td>
-                    <td>
-                      <Link
-                        to={`/client/${client.id}`}
-                        className="btn btn-secondary btn-sm"
-                      >
-                        <i className="fas fa-arrow-circle-right"></i>Details
-                      </Link>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
             </thead>
+            <tbody>
+              {clients.map((client) => (
+                <tr key={client.id}>
+                  <td>
+                    {client.firstName} {client.lastName}
+                  </td>
+                  <td>{client.email}</td>
+                  <td>${parseFloat(client.balance).toFixed(2)}</td>
+                  <td>
+                    <Link
+                      to={`/client/${client.id}`}
+                      className="btn btn-secondary btn-sm"
+                    >
+                      <i className="fas fa-arrow-circle-right"></i>Details
+                    </Link>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
           </table>
         </div>
       );
