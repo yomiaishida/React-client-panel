@@ -7,14 +7,14 @@ import { reduxFirestore, firestoreReducer } from "redux-firestore";
 // todos
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBsjEvDWOH6yPGGbHk1Eig_NduriNiohbg",
-  authDomain: "reactconpanel.firebaseapp.com",
-  databaseURL: "https://reactconpanel.firebaseio.com",
-  projectId: "reactconpanel",
-  storageBucket: "reactconpanel.appspot.com",
-  messagingSenderId: "326847050844",
-  appId: "1:326847050844:web:caa43c614743ff219ee299",
-  measurementId: "G-ZD0DV4R72Y",
+  apiKey: "AIzaSyB8uvMWy2dW_Poe9jNuj6f5153zL3wk_1A",
+  authDomain: "reactcleanpanel.firebaseapp.com",
+  databaseURL: "https://reactcleanpanel.firebaseio.com",
+  projectId: "reactcleanpanel",
+  storageBucket: "reactcleanpanel.appspot.com",
+  messagingSenderId: "314091276276",
+  appId: "1:314091276276:web:9e6173905c1cda9415dba1",
+  measurementId: "G-0W2HYEWD15",
 };
 
 // react-redux-firebase config
