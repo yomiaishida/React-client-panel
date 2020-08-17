@@ -83,7 +83,7 @@ class Settings extends Component {
 }
 
 Settings.propTypes = {
-  setting: PropTypes.object.isRequired,
+  settings: PropTypes.object.isRequired,
   setDisableBalanceOnAdd: PropTypes.func.isRequired,
   setDisableBalanceOnEdit: PropTypes.func.isRequired,
   setAllowRegistration: PropTypes.func.isRequired,
