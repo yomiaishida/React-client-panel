@@ -44,7 +44,7 @@ class Login extends Component {
                 </span>
               </h1>
               <form onSubmit={this.onSubmit}>
-                <div className="form-qroup">
+                <div className="form-group">
                   <label htmlFor="email">Email</label>
                   <input
                     type="text"
@@ -56,7 +56,7 @@ class Login extends Component {
                   />
                 </div>
 
-                <div className="form-qroup">
+                <div className="form-group">
                   <label htmlFor="password">Password</label>
                   <input
                     type="password"
