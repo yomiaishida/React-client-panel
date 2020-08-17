@@ -95,6 +95,6 @@ export default compose(
   firebaseConnect(),
   connect((state, props) => ({
     auth: state.firebase.auth,
-    setting: state.settings,
+    settings: state.settings,
   }))
 )(AppNavbar);
